@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+<body>
+<div class="head">
+  <section id="logo"><img src=aboutme.jpg height="70px"/><img src=images.png height="70px"/></section>
+  <section id="menu">
+  <a class="link" href="#about">About Me</a>
+  <a class="link" href="#photos">My Photos</a>
+  <a class="link" href="#playlist">My Playlist</a>
+  <a class="link" href="#like">Like</a>
+  <a class="link" href="#qrcoder">QR code</a>
+  <a class="link" href="#spa">Q&A</a>
+  <a class="link" href="#contact">Contact Me</a>
+  </section>
+</div>
+
+<div class="main">		  
+<section id="about" class="section">
+<h1>ABOUT ME</h1><br/>
+<div class="inside">
+<div id="aboutme"><p> My name is Kris Jenner I'm 65 years old.<br/> I have a lovley famliy,I have 
+  four children from my first marriage to Robert Kardashian - Kourtney, kim, Khloe and Robert<br/>
+  and two chlidren from my second marriage to Brouce Jenner (now Caitlyn) - Kendall and Kyile. <br/>
+  I'm a busniness women and a proud MOMAGER.<br/>
+  If you want to know more about me you can just watch KEEPING UP WITH THE KARDASHIAN </p></div>
+  <div id="aboutImg"><img src="image11.jpg" height="200px"/></div>
+</div>
+</section>
+
+<section id="photos" class="section">
+  <h1>MY PHOTOS</h1>
+  <div class="row">
+    <div class="column">
+      <div class="item">
+        <img src="image8.jpg" />
+        <span class="caption">This is an image caption for image 11</span>
+      </div>
+      <img src="image9.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="image3.jpg" style="width:100%">
+      <img src="image5.jpg" style="width:100%">
+    </div>  
+    <div class="column">
+      <img src="image6.jpg" style="width:100%">
+      <img src="image7.jpg" style="width:100%">
+      <img src="image10.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="image4.jpg" style="width:100%">
+      <img src="image2.jpg" style="width:100%">
+    </div>
+  </div>
+  </section>
+
+  
+
+<section id="playlist" class="section">
+<h1>MY PLAYLIST</h1>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2gUFUSh1NijTGtW2iPJSZcl2BqabhH7m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+give me a like
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+scan my code
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+</div>
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
